@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.footer{
+	width: 100%;
+	height:44px;
+	border-top: 1px solid #CCCCCC;
+}
+.comment{
+	width: 56%;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 7px 5px;
+	float: left;
+}
+.xiangguan,.col,.share{
+	width: 40px;
+	height: 100%;
+	text-align: center;
+	line-height: 44px;
+	float: left;
+	margin-right: 9px;
+}

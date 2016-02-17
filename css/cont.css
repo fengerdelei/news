@@ -1,0 +1,48 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,a{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	color: #000000;
+}
+
+.content,.content ul{
+	width: 98%;
+	height: auto;
+	margin: auto;
+}
+.content ul li{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #CCCCCC;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+.content ul li h4{
+	font-weight: normal;
+}
+.content ul li img{
+	width: 31%;
+	height: 70px;
+	float: left;
+	margin: 10px 5px 10px 0px;
+}
+.content ul li .tip,.content ul li .com{
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	float: left;
+	margin-right:10px ;
+}
+.content ul li .close{
+	width: 24px;
+	height: auto;
+	border: 1px solid #BBBBBB;
+	border-radius:8px;
+	float: right;
+	font-size: 12px;
+	text-align: center;
+	line-height: 12px;
+	margin-top: 4px;
+}

@@ -1,0 +1,98 @@
+body,ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.block{
+	width: 96%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.block .title{
+	width: 100%;
+	height: auto;
+	font-size: 26px;
+	margin: 10px auto;
+	text-align: center;
+}
+.block .tip{
+	width: auto;
+	height: 20px;
+	float: left;
+	font-size: 12px;
+}
+.block .time{
+	width: auto;
+	height: 20px;
+	float: right;
+	font-size: 12px;
+}
+.block .name{
+	width: 100%;
+	height: 20px;
+	border: 1px solid black;
+	margin-top: 50px;
+}
+.block .con{
+	width: 100%;
+	height: auto;
+	margin-top: 40px;
+}
+.comm{
+	width: 96%;
+	height: auto;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+	
+}
+.comm span{
+	text-align: left;
+	font-size: 14px;
+	color: red;
+}
+.comm li{
+	border-top: 1px solid #CCCCCC;
+	padding: 10px 0;
+	display: block;
+	overflow: hidden;
+}
+.comm img{
+	width: 16%;
+	height: 16%;
+	/*border: 1px solid black;*/
+	float: left;
+	margin-right: 10px;
+}
+.comm .info{
+	width:80%;
+	height: auto;
+	/*border: 1px solid black;*/
+	float: left;
+	position: relative;
+}
+.comm .name{
+	width:70%;
+	height: auto;
+	/*border: 1px solid black;*/
+}
+.comm .time{
+	width:100%;
+	height: auto;
+	/*border: 1px solid black;*/
+	font-size: 12px;
+}
+.comm .op{
+	width: 50%;
+	height:auto;
+	/*border: 1px solid black;*/
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.comm .op .zan,.comm .op .huifu{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
